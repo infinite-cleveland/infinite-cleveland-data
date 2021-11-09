@@ -1,0 +1,3 @@
+team_id,name,abbr,nickname,logo_file_name,city_id,park_id,league_id,sub_league_id,division_id,nation_id,parent_team_id,level,prevent_any_moves,human_team,human_id,gender,background_color_id,text_color_id,ballcaps_main_color_id,ballcaps_visor_color_id,jersey_main_color_id,jersey_away_color_id,jersey_secondary_color_id,jersey_pin_stripes_color_id,allstar_team,historical_id
+1,"Florida 1997","FLO1997","Marlins","florida_1997_marlins.png",50031,1,100,0,0,206,0,1,0,1,1,0,"#009CA6","#2D2926","#009CA6","#2D2926","#FFFFFF","#AAAAAA","#009CA6","#009CA6",0,"FLO"
+2,"Cleveland 1997","CLE1997","Indians","cleveland_1997_indians.png",14082,2,100,1,0,206,0,1,0,1,1,0,"#E31937","#002B5C","#E31937","#002B5C","#FFFFFF","#AAAAAA","#E31937","#E31937",0,"CLE"
