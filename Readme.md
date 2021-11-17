@@ -1,5 +1,7 @@
 # infinite-cleveland-data
 
+<https://infinitecleveland.com>
+
 This repo contains CSV data exported from Out of the Park Simulator
 for each Infinite Cleveland timeline.
 
@@ -230,64 +232,64 @@ for the single exhibition game played in that timeline.
 
 ## `players_game_pitching_stats.csv`
 
-Contains information about each pitcher's pitching stats
-from the single exhibition game played in each timeline.
+Each row of this file cntains information about a pitcher's stats
+from one particular Game 3 timeline.
 
-* `timeline`
-* `player_id`
-* `year`
-* `team_id`
-* `game_id`
-* `league_id`
-* `level_id`
-* `split_id`
-* `ip`
-* `ab`
-* `tb`
-* `ha`
-* `k`
-* `bf`
-* `rs`
-* `bb`
-* `r`
-* `er`
-* `gb`
-* `fb`
-* `pi`
-* `ipf`
-* `g`
-* `gs`
-* `w`
-* `l`
-* `s`
-* `sa`
-* `da`
-* `sh`
-* `sf`
-* `ta`
-* `hra`
-* `bk`
-* `ci`
-* `iw`
-* `wp`
-* `hp`
-* `gf`
-* `dp`
-* `qs`
-* `svo`
-* `bs`
-* `ra`
-* `cg`
-* `sho`
-* `sb`
-* `cs`
-* `hld`
-* `ir`
-* `irs`
-* `wpa`
-* `li`
-* `stint`
-* `outs`
+* `timeline` - which timeline's Game 3 this stat comes from
+* `player_id` - player id
+* `year` - (ignore)
+* `team_id` - (see teams df)
+* `game_id` - (ignore)
+* `league_id` - (ignore)
+* `level_id` - (ignore)
+* `split_id` - (ignore)
+* `ip` - innings pitched
+* `ab` - at bats
+* `tb` - total bases
+* `ha` - hits allowed
+* `k` - strikeouts (**NOTE: THIS COLUMN IS NOT ACCURATE**)
+* `bf` - batters faced
+* `rs` - ??? (runs scored? seems to be same as `r`)
+* `bb` - walk/base on balls
+* `r` - runs
+* `er` - earned runs
+* `gb` - ground balls?
+* `fb` - fly balls?
+* `pi` - pitches?
+* `ipf` - ??? (intentional pitchout first?)
+* `g` - games?
+* `gs` - games stared? grand slams?
+* `w` - wins
+* `l` - losses
+* `s` - saves?
+* `sa` - ??? (single against? stolen against?)
+* `da` - ??? (double against?)
+* `sh` - ??? (shutouts? what is SHO?)
+* `sf` - ???
+* `ta` - ??? (triple against?)
+* `hra` - ??? (home run against?)
+* `bk` - ??? (balk?)
+* `ci` - ???
+* `iw` - intentional walks
+* `wp` - ??? (walks.......?)
+* `hp` - ??? (hits.......?)
+* `gf` - ???
+* `dp` - double plays (?)
+* `qs` - ???
+* `svo` - save opportunities?
+* `bs` - ???
+* `ra` - ???
+* `cg` - complete game(s) (?)
+* `sho` - ??? (shutouts?)
+* `sb` - stolen base(s) (by? against?)
+* `cs` - caught stealing
+* `hld` - ??? (ld = line drive...?)
+* `ir` - inherited runs
+* `irs` - iherited runs scored
+* `wpa` - (WPA percent? walks per...?)
+* `li` - ???
+* `stint` - ???
+* `outs` - ???
 
 ## `teams.csv`
 
@@ -299,27 +301,5 @@ This file contains the Team ID to Team Name mapping.
 * `name`
 * `abbr`
 * `nickname`
-* `logo_file_name`
-* `city_id`
-* `park_id`
-* `league_id`
-* `sub_league_id`
-* `division_id`
-* `nation_id`
-* `parent_team_id`
-* `level`
-* `prevent_any_moves`
-* `human_team`
-* `human_id`
-* `gender`
-* `background_color_id`
-* `text_color_id`
-* `ballcaps_main_color_id`
-* `ballcaps_visor_color_id`
-* `jersey_main_color_id`
-* `jersey_away_color_id`
-* `jersey_secondary_color_id`
-* `jersey_pin_stripes_color_id`
-* `allstar_team`
-* `historical_id`
 
+rest of keys are irrelevant.
