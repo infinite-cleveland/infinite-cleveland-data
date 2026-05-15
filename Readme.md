@@ -9,6 +9,7 @@ Data was exported separately for each timeline by opening that timeline's
 saved game and exporting database data as a CSV file. The CSV data from
 each timeline was combined into a single CSV file by adding an extra
 "timeline" column to the front of timeline-specific CSV data.
+Timelines are numbered 1-69 (1-indexed).
 
 ## `games.csv`
 
